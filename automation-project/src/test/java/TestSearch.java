@@ -7,6 +7,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 @Test
+
 public class TestSearch extends BaseTest {
 WebDriver driver;
 
@@ -28,7 +29,7 @@ public void SearchLaptop() {
 public void MoveToCart() {
 	driver.findElement(By.xpath("//*[@id=\"search\"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span")).click();
 	//driver.getWindowHandle()
-	driver.switchTo().defaultContent();
+	//driver.switchTo().window
 
 
 }
