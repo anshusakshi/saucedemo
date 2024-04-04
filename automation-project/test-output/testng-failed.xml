@@ -5,7 +5,7 @@
     <classes>
       <class name="TestSearch">
         <methods>
-          <include name="MoveToCart"/>
+          <include name="ClickOnElemt"/>
         </methods>
       </class> <!-- TestSearch -->
     </classes>

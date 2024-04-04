@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 31 18:41:28 IST 2024</td>
+<td>Started on:</td><td>Thu Apr 04 10:07:01 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8411 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5935 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestSearch.MoveToCart()'><b>MoveToCart</b><br>Test class: TestSearch</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;search&quot;]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span&quot;}
+<td title='TestSearch.ClickOnElemt()'><b>ClickOnElemt</b><br>Test class: TestSearch</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[contains(@class,&apos;a-section a-spacing-none puis-padding-right-small s-title-instructions-style&apos;)])[2]&quot;}
   (Session info: chrome=123.0.6312.86)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa38dcfcdc05859ff6d1d226b70f7dbc, findElement {value=//*[@id=&quot;search&quot;]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\SAKSHI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53983/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa38dcfcdc05859ff6d1d226b70f7dbc
+Command: [6b1b2e46671cfe103e5eccd02b673125, findElement {using=xpath, value=(//div[contains(@class,&apos;a-section a-spacing-none puis-padding-right-small s-title-instructions-style&apos;)])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\SAKSHI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54088/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b1b2e46671cfe103e5eccd02b673125
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -102,7 +102,7 @@ Session ID: aa38dcfcdc05859ff6d1d226b70f7dbc
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at TestSearch.MoveToCart(TestSearch.java:30)
+	at TestSearch.ClickOnElemt(TestSearch.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,16 +131,16 @@ Session ID: aa38dcfcdc05859ff6d1d226b70f7dbc
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1057569470", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1057569470'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;search&quot;]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace278262050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace278262050'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[contains(@class,&apos;a-section a-spacing-none puis-padding-right-small s-title-instructions-style&apos;)])[2]&quot;}
   (Session info: chrome=123.0.6312.86)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aa38dcfcdc05859ff6d1d226b70f7dbc, findElement {value=//*[@id=&quot;search&quot;]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/span/div/div/div/div[2]/div/div/div[1]/h2/a/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\SAKSHI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53983/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa38dcfcdc05859ff6d1d226b70f7dbc
+Command: [6b1b2e46671cfe103e5eccd02b673125, findElement {using=xpath, value=(//div[contains(@class,&apos;a-section a-spacing-none puis-padding-right-small s-title-instructions-style&apos;)])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\SAKSHI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54088}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54088/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b1b2e46671cfe103e5eccd02b673125
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -157,7 +157,7 @@ Session ID: aa38dcfcdc05859ff6d1d226b70f7dbc
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at TestSearch.MoveToCart(TestSearch.java:30)
+	at TestSearch.ClickOnElemt(TestSearch.java:40)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -188,7 +188,7 @@ Session ID: aa38dcfcdc05859ff6d1d226b70f7dbc
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>TestSearch@272113c4</td></tr>
+<td>TestSearch@52b1beb6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -201,13 +201,13 @@ Session ID: aa38dcfcdc05859ff6d1d226b70f7dbc
 <tr>
 <td title='TestSearch.AmazonHomePage()'><b>AmazonHomePage</b><br>Test class: TestSearch</td>
 <td></td>
-<td>4</td>
-<td>TestSearch@272113c4</td></tr>
+<td>3</td>
+<td>TestSearch@52b1beb6</td></tr>
 <tr>
 <td title='TestSearch.SearchLaptop()'><b>SearchLaptop</b><br>Test class: TestSearch</td>
 <td></td>
-<td>4</td>
-<td>TestSearch@272113c4</td></tr>
+<td>2</td>
+<td>TestSearch@52b1beb6</td></tr>
 </table><p>
 </body>
 </html>
